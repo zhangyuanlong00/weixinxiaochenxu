@@ -1,0 +1,57 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/counts/counts",
+    "pages/weibo/weibo"
+   
+  ],
+  "window": {
+        "backgroundTextStyle": "light",
+		    "navigationBarBackgroundColor": "#ccc",
+		    "navigationBarTitleText": "小程序lala",
+		    "navigationBarTextStyle": "black",
+		    "navigationStyle":"default",
+		    "backgroundColor": "#000",
+    		"enablePullDownRefresh": true,
+    		"onReachBottomDistance": 50
+
+  },
+  "tabBar":{
+    "color":"#8a8a8a",
+    "selectedColor":"#1AAD16",
+    "backgroundColor":"#fff",
+    "borderStyle":"widthe",
+    "position": "bottom",
+    "list":[
+      {
+        "pagePath":"pages/index/index",
+        "text":"微信",
+        "iconPath":"imges/tabbar/tabbar1.png",
+        "selectedIconPath":"imges/tabbar/tabbar1-click.png"
+      },
+      {
+        "pagePath": "pages/counts/counts",
+        "text": "通讯录",
+        "iconPath": "imges/tabbar/tabbar2.png",
+        "selectedIconPath": "imges/tabbar/tabbar2-click.png"
+      },
+        {
+          "pagePath": "pages/logs/logs",
+          "text": "发现",
+          "iconPath": "imges/tabbar/tabbar3.png",
+          "selectedIconPath": "imges/tabbar/tabbar3-click.png"
+        },
+          {
+            "pagePath": "pages/weibo/weibo",
+            "text": "我的",
+            "iconPath": "imges/tabbar/tabbar4.png",
+            "selectedIconPath": "imges/tabbar/tabbar4-click.png"
+          }
+      
+    ]
+  },
+  "debug":true
+
+
+}
